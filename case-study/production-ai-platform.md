@@ -10,11 +10,12 @@ measured results, because the mechanisms are what transfer.
 
 ## Scale, and how each number is measured
 
-- **2.5B tokens processed at a 97.8% cache hit rate.** Measured by token accounting
-  instrumented at every model call site, stored per request, reconciled against provider
-  billing. At a 75% hit rate the same volume would have cost roughly 2.7x more, computed
-  from the cached-versus-uncached price ratio; cache behavior, not raw token count,
-  decides the bill.
+- **2.5B tokens processed in a single month at a 97.8% cache hit rate.** A mid-2026
+  snapshot; the platform now averages close to 5B tokens a month. Measured by token
+  accounting instrumented at every model call site, stored per request, reconciled
+  against provider billing. At a 75% hit rate the same volume would have cost roughly
+  2.7x more, computed from the cached-versus-uncached price ratio; cache behavior, not
+  raw token count, decides the bill.
 - **About 170 pull requests merged through the gated trunk in the platform's first three
   months.** Counted from the default branch's merge history at the time of writing.
 - **Test suite grown from about 780 to about 1,500 backend tests plus about 250 frontend
