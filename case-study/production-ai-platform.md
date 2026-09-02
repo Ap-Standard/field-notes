@@ -1,8 +1,8 @@
-# Case study: operating a production AI platform as a two-person team
+# Case study: operating a production AI platform as a one-person team
 
 ## What it is
 
-A multi-tenant AI platform in production since mid-2026: knowledge workflows and agent
+A multi-tenant AI platform in production since January-2026: knowledge workflows and agent
 runs for organizations, on a Python backend and a TypeScript frontend. I architect and
 operate it as one half of a two-person team. The codebase, the clients, and the
 infrastructure stay private. This case study shares the operating mechanisms and the
@@ -10,7 +10,7 @@ measured results, because the mechanisms are what transfer.
 
 ## Scale, and how each number is measured
 
-- **2.5B tokens processed in a single month at a 97.8% cache hit rate.** A mid-2026
+- **2.5B tokens processed in a single month at a 97.8% cache hit rate.** A spring-2026
   snapshot; the platform now averages close to 5B tokens a month. Measured by token
   accounting instrumented at every model call site, stored per request, reconciled
   against provider billing. At a 75% hit rate the same volume would have cost roughly
@@ -77,7 +77,7 @@ tooling is what makes the green checks believable.
 
 ## Limitations, and what does not transfer
 
-- This is a two-person operation. Machine gates carry more of the review weight than they
+- This is a one-person operation. Machine gates carry more of the review weight than they
   should at team scale. With a team, human review returns as the primary gate and AI
   seats become advisory.
 - Per-user entitlement toggles for dark launches stop scaling once the operator can no
