@@ -69,8 +69,8 @@ If any of the three has no number, the rung stays where it is.
   threshold because the seat reported no P1 on any of the 15 eligible synthetic cases in
   twoseat's published report (`bench/results/REPORT.md` at v0.1.0), which is one
   measurement printed three times, and the seat's record on live pull requests is short:
-  one reported finding, a P2 on a 44-file pull request, read from twoseat issue #12 on
-  2026-09-06, tracked in the open at twoseat issue #12. Enforcing a threshold the
+  one reported finding, a P2 on a 44-file pull request, as of 2026-09-06, tracked in the
+  open at twoseat issue #12. Enforcing a threshold the
   evidence cannot yet discriminate would be enforcement of an unmeasured thing. The enforce
   step is the v0.2 rung.
 
