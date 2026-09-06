@@ -52,5 +52,5 @@ perfect tool or a team that stopped reading the findings.
 A runnable, measured implementation of this pattern ships in the open as
 [twoseat v0.1.0](https://github.com/Ap-Standard/twoseat/releases/tag/v0.1.0): one seat,
 benchmarked against 48 synthetic cases (47 scored, one run per case, method in the repo's
-`bench/README.md`) before it was trusted with a comment. The second seat is the v0.2
-milestone, and the release notes say so.
+`bench/README.md`) before it was trusted with a comment. The second seat is not built: it
+is twoseat's [v0.2 milestone](https://github.com/Ap-Standard/twoseat/milestone/2).
