@@ -4,7 +4,7 @@
 
 A multi-tenant AI platform in production since January-2026: knowledge workflows and agent
 runs for organizations, on a Python backend and a TypeScript frontend. I architect and
-operate it as one half of a two-person team. The codebase, the clients, and the
+operate it as a one-person technical team. The codebase, the clients, and the
 infrastructure stay private. This case study shares the operating mechanisms and the
 measured results, because the mechanisms are what transfer.
 
